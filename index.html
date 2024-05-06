@@ -4,21 +4,18 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Robust Single Object Tracking and Pedestrian Following by Fusion Strategy">
-  <meta property="og:title" content="Robust Single Object Tracking and Following by Fusion Strategy"/>
-  <meta property="og:description" content="Robust Single Object Tracking and Pedestrian Following by Fusion Strategy"/>
-  <meta property="og:url" content="https://aurova-projects.github.io/tracker_fusion/"/>
+  <meta name="description" content="OpenStreetMap-Based Autonomous Navigation With LiDAR Naive-Valley-Path Obstacle Avoidance">
+  <meta property="og:title" content="OpenStreetMap-Based Autonomous Navigation With LiDAR Naive-Valley-Path Obstacle Avoidance"/>
+  <meta property="og:description" content="OpenStreetMap-Based Autonomous Navigation With LiDAR Naive-Valley-Path Obstacle Avoidance"/>
+  <meta property="og:url" content="https://aurova-projects.github.io/osm_path_planning/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/images/EKFdiagramICINCO.png" />
-  <meta property="og:image:width" content="856"/>
-  <meta property="og:image:height" content="515"/>
 
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="Target Tracking, Autonomous Vehicles, Robot Sensing Systems, Real-Time Systems">
+  <meta name="keywords" content="Autonomous Vehicles, Autonomous Navigation, Path Planning, OpenStreetMap, Local Path Planning, Global Path Planning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Robust Single Object Tracking and Following by Fusion Strategy</title>
+  <title>OpenStreetMap-Based Autonomous Navigation With LiDAR Naive-Valley-Path Obstacle Avoidance</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -55,17 +52,17 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Robust Single Object Tracking and Following by Fusion Strategy</h1>
+            <h1 class="title is-1 publication-title">OpenStreetMap-Based Autonomous Navigation With LiDAR Naive-Valley-Path Obstacle Avoidance</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block">
-                Alejandro Olivas,
-              </span>
               <span class="author-block">
                 Miguel Ángel Muñoz-Bañón,
               </span>
               <span class="author-block">
-                Edison Velasco,
+                Edison Velasco-Sánches,
+              </span>
+              <span class="author-block">
+                Francisco A. Candelas,
               </span>
               <span class="author-block">
                 Fernando Torres
@@ -77,25 +74,38 @@
             </div>
 
             <div class="is-size-8 publication-authors">
-              <span class="author-block"><a href="mailto:alejandro.olivas@ua.es" target="_blank">alejandro.olivas@ua.es</a></span>
+              <span class="author-block"><a href="mailto:miguelangel.munoz@ua.es" target="_blank">miguelangel.munoz@ua.es</a></span>
             </div>
 
             <div class="column has-text-centered">
-              <div class="publication-links">
-                    <!-- Paper link -->
-                <span class="link-block">
-                  <a href="https://rua.ua.es/dspace/bitstream/10045/138863/1/Olivas_etal_ICINCO-2023.pdf" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span>
+            <div class="publication-links">
+            
+          
+            <!-- Paper link -->
+            <span class="link-block">
+              <a href="https://ieeexplore.ieee.org/document/9906811" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+            </span>
+
+            <!-- Arxiv link -->
+            <span class="link-block">
+              <a href="https://arxiv.org/pdf/2108.09117" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+              </a>
+            </span>
 
             <!-- Github link -->
             <span class="link-block">
-              <a href="https://github.com/AUROVA-LAB/applications/tree/main/app_tracker_fusion" target="_blank"
+              <a href="https://github.com/AUROVA-LAB/applications" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <i class="fab fa-github"></i>
@@ -103,13 +113,63 @@
                 <span>Code</span>
               </a>
             </span>
-
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">Video Presentation</h2> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/w0pikf8788k?si=WJvva-rYRLvWculb" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            OpenStreetMaps (OSM) is currently studied as the environment representation for autonomous navigation. It provides advantages such as global consistency, a heavy-less map construction process, and a wide variety of road information publicly available. However, the location of this information is usually not very accurate locally. In this paper, we present a complete autonomous navigation pipeline using OSM information as environment representation for global planning. To avoid the flaw of local low-accuracy, we offer the novel LiDAR-based Naive-Valley-Path (NVP) method that exploits the concept of “valley” areas to infer the local path always furthest from obstacles. This behavior allows navigation always through the center of trafficable areas following the road’s shape independently of OSM error. Furthermore, NVP is a naive method that is highly sample-time-efficient. This time efficiency also enables obstacle avoidance, even for dynamic objects. We demonstrate the system’s robustness in our research platform BLUE, driving autonomously across the University of Alicante Scientific Park for more than 20 km with 0.24 meters of average error against the road’s center with a 19.8 ms of average sample time. Our vehicle avoids static obstacles in the road and even dynamic ones, such as vehicles and pedestrians.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container_fig">
+      <div class="column_fig"><img src="static/images/osm_pp.png" alt="Pipeline"/></div>
+      <div class="column_fig"><img src="static/images/global_map.png" alt="Global map"/></div>
+      <div class="column_fig"><img src="static/images/Blue_2024.png" alt="Robot BLUE"/></div>
+    </div>
+    <h2 class="subtitle has-text-centered">
+      (Left) OSM-Based autonomous navigation pipeline - (Center) Global graph extracted from OSM - (Right) BLUE robot (UGV), used for the experiments
+    </h2>
+  </div>
+</section>
+
 
 
 <!-- Teaser video-->
@@ -152,68 +212,8 @@
 </section> -->
 <!-- End video carousel -->
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/n7d_BEgYg2k?si=oAVwz-0R4a1M0xAF" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
 
-
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Single Object Tracking methods are yet not robust enough because they may lose the target due to occlusions or
-            changes in the target’s appearance, and it is difficult to detect automatically when they fail. To deal with these
-            problems, we design a novel method to improve object tracking by fusing complementary types of trackers,
-            taking advantage of each other’s strengths, with an Extended Kalman Filter to combine them in a probabilistic
-            way. The environment perception is performed with a 3D LiDAR sensor, so we can track the object in the point
-            cloud and also in the front-view image constructed from the point cloud. We use our tracker-fusion method in
-            a mobile robot to follow pedestrians, also considering the dynamic obstacles in the environment to avoid them.
-            We show that our method allows the robot to follow the target accurately during long experimental sessions
-            where the trackers independently fail, demonstrating the robustness of our tracker-fusion strategy.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-        <img src="static/images/EKFdiagramICINCO.png" alt="Diagram Robust Single Object Tracking and Following by Fusion Strategy" class="center" width="50%"/>
-        <h2 class="subtitle has-text-centered">
-          Diagram of our tracker-fusion method.
-        </h2>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="gif-carousel" class="carousel results-carousel">
@@ -226,7 +226,8 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+<!-- End image carousel -->
 
 <!-- Paper poster -->
 <!-- <section class="hero is-small is-light">
@@ -248,18 +249,17 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-@conference{olivas2023robust,
-  author={Alejandro Olivas. and Miguel Muñoz{-}Bañón. and Edison Velasco. and Fernando Torres.},
-  title={Robust Single Object Tracking and Following by Fusion Strategy},
-  booktitle={Proceedings of the 20th International Conference on Informatics in Control, Automation and Robotics - Volume 1: ICINCO},
-  year={2023},
-  pages={624-631},
-  publisher={SciTePress},
-  organization={INSTICC},
-  doi={10.5220/0012178900003543},
-  isbn={978-989-758-670-5},
-  issn={2184-2809},
-}
+        @article{munoz2022openstreetmap,
+          title={Openstreetmap-based autonomous navigation with lidar naive-valley-path obstacle avoidance},
+          author={Muñoz-Bañón, Miguel Ángel and Velasco-Sánchez, Edison and Candelas, Francisco A. and Torres, Fernando},
+          journal={IEEE Transactions on Intelligent Transportation Systems},
+          volume={23},
+          number={12},
+          pages={24428--24438},
+          year={2022},
+          doi={10.1109/TITS.2022.3208829},
+          publisher={IEEE}
+        }
     </code></pre>
     </div>
 </section>
