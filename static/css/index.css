@@ -173,3 +173,9 @@ body {
   height: auto;
   margin-right: 0px;
 }
+
+.hline{
+  border-bottom:2px solid #000000;
+  width: 75%; 
+  margin: auto;
+}
